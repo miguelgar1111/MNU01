@@ -1,0 +1,19 @@
+/* COMENTARIO EN CSS */
+
+body {
+    background-color: rgb(24, 224, 224);
+}
+h1 {
+    text-align: center;
+    /* color del texto */
+    color: blue;
+}
+p {
+    background-color: greenyellow;
+}
+.parrafo-1{
+    background-color: blue;
+    font-size: 44px;
+    color: azure;
+}
+

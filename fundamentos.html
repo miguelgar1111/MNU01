@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos 2</title>
+    <link href="./FUNDAMENTOS.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- MAQUETAR NUETSRA PÁGINA -->
+
+    <!-- Encabezado -->
+    <header>
+
+        <!-- Menú de navegación -->
+         <nav>
+            <!-- listas -->
+             <!-- Listas órdenadas -->
+              <ol class="lista">
+                <a href="#que-es-html"> <li>Qué es HTML</li> </a> <!-- list item -->
+                <a href="#semantica"> <li>Semántica</li> </a>
+                <a href="#etiquetas-basicas"> <li>Etiquetas básicas</li> </a>
+              </ol>
+
+              <!-- imagenes -->
+               <!-- webp - svg -->
+              <a href="./index.html"> <img class="Logo" src="https://cdn-icons-png.flaticon.com/512/10001/10001386.png" alt="logo"> </a>
+
+              <!-- Listas desordenadas -->
+              <ul class="lista">
+               <a href="#formularios"> <li>Formularios</li> </a>
+               <a href="#tablas"> <li>Tablas</li> </a>
+               <a href="#enlaces"> <li>Enlaces</li> </a>
+              </ul>
+         </nav>
+
+    </header>
+
+    <!-- main -->
+    <main>
+      <section class="contenedor" id="que-es-html">
+        <h1>¿Qué es el HTML?<span>_________</span></h1>
+        <p>Lenguaje de Marcado que estructura el contenido de una página web. Basado en etiquetas que pueden ser semánticas o no semánticas</p>
+        <span>¡No es un Lenguaje de programación!</span>
+      </section>
+
+      <section class="contenedor" id="semantica">
+        <h2>Semántica en HTML</h2>
+        <img src="https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/01/html-vs-html5.webp" alt="html semantica">
+      </section>
+
+      <section class="contenedor" id="etiquetas-basicas">
+        <h2>Etiquetas básicas del HTML</h2>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Etiqueta</th>
+              <th>Desccripción</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>h1, h2, h3, h4, h5, h6</td>
+              <td>Títulos y subtítulos en HTML</td>
+            </tr>
+
+            <tr>
+              <td>p</td>
+              <td>Párrafos</td>
+            </tr>
+
+            <tr>
+              <td>img</td>
+              <td>Para mostrar las imágenes (src, alt)</td>
+            </tr>
+
+            <tr>
+              <td>ul, ol</td>
+              <td>Etiquetas para definir listas desordenadas y ordenadas</td>
+            </tr>
+
+            <tr>
+              <td>Div</td>
+              <td>Divisores de contenido - dar estilos</td>
+            </tr>
+
+            <tr>
+              <td> a </td>
+              <td>Es redireccionar a un link fuera o dentro de nuestra página</td>
+            </tr>
+
+          </tbody>
+        </table>
+
+      </section>
+
+      <section class="contenedor" id="formularios">
+        <h2>Formularios en HTML</h2>
+        <p>Son una herramienta fundamental para recopilar datos de un usuario, a través de campos como:</p>
+
+        <ul>
+          <li>Textos</li>
+          <li>casillas de texto - aáreas de texto</li>
+          <li>listas desplegables</li>
+          <li>botones</li>
+        </ul>
+
+        <div>
+          <h3>Ejemplo: Formulario de inicio de sesión</h3>
+
+          <form>
+            <label for="nombre">Nombre de usuario:</label>
+            <input type="text" id="nombre" placeholder="Ingrese su nombre" required>
+
+            <label for="contrasenia">Contraseña:</label>
+            <input type="password" id="contrasenia" placeholder="Ingresa tu contraseña" required>
+
+            <input type="button" value="Iniciar sesión">
+          </form>
+        </div>
+
+      </section>
+      <section class="contenedor" id="Tablas"></section>
+      <section class="contenedor" id="enlaces"></section>
+      <section>
+        <h2>Enlaces en HTML</h2>
+
+        <p>Permiten navegar a otras paginas web (a otros documentos de HTML), secciones del mismo sitio
+        o de la misma pagina. Descargar un archivo al hacer click en el enlace </p>
+
+        <span> '< a > < /a > </span>
+        
+      </section>  
+
+
+    </main>
+
+    <!-- pie de página -->
+    <footer>
+
+    </footer>
+</body>
+
+</html>
